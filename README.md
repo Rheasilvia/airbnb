@@ -1,11 +1,39 @@
-# airbnb
+    
+## Table of Contents
+1. [Installation](#installation)
+2. [Project Motivation](#motivation)
+3. [File Descriptions](#files)
+4. [Results](#results)
+5. [Licensing, Authors, and Acknowledgements](#licensing)
 
-## mentions
+## Installation 
 
+There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python. The code should run with no issues using Python versions 3.*.
+
+## Project Motivation 
 - This is the first project of Udacity Data Scientist Term 2.
-- The project have two dataset,including Airbnb Seattle and Boston host.
 - In this report,we will use data analysis about the dataset and answer three questions.
-- All code use Python and write in airbnb.ipynb,you also can read airbnb.html,there are the same. 
+	- Is there any relationship between 'price' and 'review_score_rate'?
+	- Is there any pattern between other scores with price ?
+	- Is there any pattern between the location and the price?
 
-## blog post 
-[Project I. Udacity Data Scientist Nanodegree’ beginning]https://shannon-online.com/
+## File Descriptions
+- The notebook 'airbnb.ipynb' strives to answer some chosen question using simple exploratory data analysis, and descriptive statistics on the airbnb dataset. This notebook follows on lines of Cross-Industry Standard Process for Data Mining (CRISP-DM)
+
+- 'airbnb.html' is the static html version of the notebook.
+
+Create the 'data' folder in the root path. Please compress the data sets into this directory.
+
+Both data sets contain the following files:
+
+- calendar set (calendar.csv) : Including listing id and the price and availability for that day.
+- listings set (listings.csv) : Including full descriptions and average review score.
+- reviews set (reviews.csv) :Including unique id for each reviewer and detailed comments. 
+
+## Results 
+The main findings of the code can be found at the post available [here](https://shannon-online.com/).
+
+## Licensing, Authors, Acknowledgements
+Must give credit to Airbnb for the data. You can find the Licensing for the data and other descriptive information at the Kaggle link available in Seattle AirBNB [Data](https://www.kaggle.com/airbnb/seattle/data) and Boston AirBNB [Data](https://www.kaggle.com/airbnb/boston).And the original source can be found [here](http://insideairbnb.com/get-the-data.html). Otherwise, feel free to use the code here as you would like!
+
+

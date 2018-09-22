@@ -33,6 +33,9 @@ Both data sets contain the following files:
 ## Results 
 The main findings of the code can be found at the post available [here](https://shannon-online.com/).
 
+## Summary
+In the report, we will find that although the data of Seattle and Boston are different, the analysis of data characteristics shows that there is a certain correlation between price and region, as well as the evaluation of housing.
+
 ## Licensing, Authors, Acknowledgements
 Must give credit to Airbnb for the data. You can find the Licensing for the data and other descriptive information at the Kaggle link available in Seattle AirBNB [Data](https://www.kaggle.com/airbnb/seattle/data) and Boston AirBNB [Data](https://www.kaggle.com/airbnb/boston).And the original source can be found [here](http://insideairbnb.com/get-the-data.html). Otherwise, feel free to use the code here as you would like!
 
